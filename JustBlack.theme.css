@@ -24,7 +24,7 @@ body {
     transition: 0.4s !important;
 }
 .guilds-wrapper:hover {
-    opacity: 1 !important;
+    opacity: 0 !important;
 }
 
 .private-channels, .search-bar {
@@ -64,7 +64,7 @@ body {
 }
 .channels-wrap:hover, .flex-lFgbSz:hover {
 	background: none !important;
-    opacity: 1 !important;
+    opacity: 0 !important;
 }
 
 /* Top Bar, Bottom Bar, Messages, Member List */
@@ -256,10 +256,6 @@ body {
 .friends-icon {
     background-color: rgb(1, 97, 176) !important;
 }
-/* Same But Hover */
-.friends-icon:hover {
-    background-color: rgb(41, 137, 216) !important;
-}
 
 /* Modal Menu */
 .modal-3HOjGZ {
@@ -293,9 +289,6 @@ body {
 }
 /* Ends Here */
 
-/* Member List Hover */
-.channel-members > .member:hover {
-    background: linear-gradient(90deg, rgba(91, 187, 255, 0.6), rgba(0, 0, 0, 0)) !important;
 }
 
 /* User Profile Modal */
